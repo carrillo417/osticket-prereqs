@@ -20,17 +20,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Create a Resourse Group in Azure
 - Create an Azure Virtual Machine Windows 10, 4 vCPUs
-- <p><b>FOR EXAMPLE</b></p>
-<p>-Name: Vm-osticket</p>
-<p>-Username: labuser </p>
-<p>-Password: osTicketPassword1! </p>
+- Have <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Installation Files</a> available
 
 
-<h2>Installation Steps</h2>
-<p> <b>Install / Enable IIS in Windows WITH CGI and common HTTP Features</b> </p>
+<h2>Installation Steps</h2
+<p><b>Step 1: Connect to Virtual Machine using Remote Desktop</b></p>
+
+<p> <b>Step 2: Install / Enable IIS in Windows WITH CGI and common HTTP Features</b> </p>
 
 <p>
-  - Open Control Panel
+  - Search and open Control Panel
+  - Under Programs click on Uninstall a progam
+  - Click on 'Turn on Windows features on and off' located on the left side
 <img " height="80%" width="80%"/>
 </p>
 <p>
