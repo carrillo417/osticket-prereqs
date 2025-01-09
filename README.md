@@ -14,43 +14,41 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10 Pro </b> (22H2)
 
 <h2>List of Prerequisites</h2>
 
 - Create a Resourse Group in Azure
-- Create an Azure Virtual Machine Windows 10, 4 vCPUs
+- Create an Azure Virtual Machine Windows 10, 2 vCPUs
 - Have <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Installation Files</a> available
 
 
-<h2>Installation Steps</h2
-<p><b>Step 1: Connect to Virtual Machine using Remote Desktop</b></p>
+<h2>Installation Steps</h2>
+                        
+- Connect to Virtual Machine using Remote Desktop
+- Within the VM, download the osTicket-Installation-Files.zip and unzip onto the desktop
 
-<p> <b>Step 2: Install / Enable IIS in Windows WITH CGI and common HTTP Features</b> </p>
+  <img src="https://i.imgur.com/u5kGR2P.png" height="80%" width="80%" alt=""/>
 
-<p>
-  - Search and open Control Panel
-  - Under Programs click on Uninstall a progam
-  - Click on 'Turn on Windows features on and off' located on the left side
-<img " height="80%" width="80%"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+  <img src="https://i.imgur.com/LSuBNUA.png" height="80%" width="80%" alt=""/>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- Install/Enable IIS in Windows with CGI
+  - Open Control Panel
+  - Under Programs click on Uninstall program
+  - Click on Turn Windows Features on or off
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+  <img src="https://i.imgur.com/vTRiEam.png" height="80%" width="80%" alt=""/>
+
+  - Select Internet Information Services
+  - Click the + button on World Wide Web Services
+  - Expand Application Development Features
+  - Enable CGI and Click OK
+
+<img src="https://i.imgur.com/I9TjLXf.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/yNyeEQ0.png" height="80%" width="80%" alt=""/>
+
+
+
+
+  
