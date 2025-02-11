@@ -73,7 +73,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/VyzLPz6.png" height="80%" width="80%" alt=""/>
 
 - Follow the following steps for setting up correctly:
-- -Typical setup -> Launch Configuration Wizard after install -> Standard Configuration
+- Typical setup -> Launch Configuration Wizard after install -> Standard Configuration
 - Username: root
 - Password: root
 - (Using this username and password for an easier install and setup, not recommended in real scenarios)
@@ -88,7 +88,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img src="https://i.imgur.com/XnlYM7Q.png" height="80%" width="80%" alt=""/>
 
+<img src="https://i.imgur.com/BPsKxaE.png" height="80%" width="80%" alt=""/>
 
+- Open IIS as an Admin
+- Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+  
+<img src="https://i.imgur.com/XNwhOha.png" height="80%" width="80%" alt=""/>
 
 
 
