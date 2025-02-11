@@ -48,6 +48,55 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img src="https://i.imgur.com/yNyeEQ0.png" height="80%" width="80%" alt=""/>
 
+- Install PHP Manager for IIS from the "osTicket-Installation-Files" folder
+- Install the Rewrite Module as well
+
+<img src="https://https://i.imgur.com/wnYekaU.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/defkgu8.pngg" height="80%" width="80%" alt=""/>
+
+- Create the directory C:\PHP
+
+<img src="https://i.imgur.com/d7XjdN2.png" height="80%" width="80%" alt=""/>
+
+- From the "osTicket-Installation-Files" folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+
+<img src="https://i.imgur.com/El1RFQE.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/6QV606L.png" height="80%" width="80%" alt=""/>
+
+- From the "osTicket-Installation-Files" folder, install VC_redist.x86.exe
+- Install MySQL 5.5.62
+
+<img src="https://i.imgur.com/Kvxt1Bo.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/VyzLPz6.png" height="80%" width="80%" alt=""/>
+
+- Follow the following steps for setting up correctly:
+- -Typical setup -> Launch Configuration Wizard after install -> Standard Configuration
+- Username: root
+- Password: root
+- (Using this username and password for an easier install and setup, not recommended in real scenarios)
+
+<img src="https://i.imgur.com/uq77c57.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/0avZ9dZ.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/GZ5BY5n.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/TzO4idD.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/XnlYM7Q.png" height="80%" width="80%" alt=""/>
+
+
+
+
+
+
+
+
+
+
 
 
 
