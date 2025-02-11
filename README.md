@@ -97,9 +97,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img src="https://i.imgur.com/X7NZ1BX.png" height="80%" width="80%" alt=""/>
 
-<img src="https://i.imgur.com/dmg5bgP.png" height="80%" width="80%" alt=""/>
-
 <img src="https://i.imgur.com/41ftOZp.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/dmg5bgP.png" height="80%" width="80%" alt=""/>
 
 <img src="https://i.imgur.com/u3EuCwI.png" height="80%" width="80%" alt=""/>
 
