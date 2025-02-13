@@ -210,6 +210,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img src="https://i.imgur.com/roGiL09.png" height="80%" width="80%" alt=""/>
 
--Congratulations! osTicket should be installed with no errors.
+- Congratulations! osTicket should be installed with no errors.
 
 <img src="https://i.imgur.com/KsQRjZA.png" height="80%" width="80%" alt=""/>
