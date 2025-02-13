@@ -134,6 +134,82 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img src="https://i.imgur.com/1mXXNQd.png" height="80%" width="80%" alt=""/>
 
+- Note that some extensions are not enabled
+- Go back to IIS, sites -> Default -> osTicket
+- Double clikc PHP Manager
+- Click "Enable or disable an extension"
+- Enable: php_imap.dll
+- Enable: php_intl.dll
+- Enable: php_opcache.dll
+- Refresh the osTicket site on your browser and observe the changes
 
+<img src="https://i.imgur.com/85cHsrA.png" height="80%" width="80%" alt=""/>
 
-  
+<img src="https://i.imgur.com/X4ALhwO.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/8KHd1Of.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/QenR1TV.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/QGeFdIn.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/QGeFdIn.png" height="80%" width="80%" alt=""/>
+
+- Rename os-config.php
+- from: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+<img src="https://i.imgur.com/xozjii9.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/r0HJAxv.png" height="80%" width="80%" alt=""/>
+
+- Assign permissions: ost-config.php
+- Disable inheritance -> Remove All
+- New Permission -> Everyone -> All (Again, this isn't ideal for real life scenarios)
+
+<img src="https://i.imgur.com/d3ZysoL.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/Eh13hyS.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/b8Odcn9.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/7SS3Jof.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/uVD4Dbn.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/WTzh2lP.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/v0BYbFX.png" height="80%" width="80%" alt=""/>
+
+- Continue Setting up osTicket in the browser (Click Continue)
+- Name Helpdesk
+- Default Email
+
+<img src="https://i.imgur.com/sL7eOCl.png" height="80%" width="80%" alt=""/>
+
+- From the “osTicket-Installation-Files” folder, install HeidiSQL
+
+<img src="https://i.imgur.com/R1381k0.png" height="80%" width="80%" alt=""/>
+
+- Open HeidiSQL
+- Create a new session, username: root password: root
+- Connect to the session
+
+<img src="https://i.imgur.com/FF3Vffn.png" height="80%" width="80%" alt=""/>
+
+- Create a Database called "osTicket"
+
+<img src="https://i.imgur.com/DYEg6wV.png" height="80%" width="80%" alt=""/>
+
+<img src="https://i.imgur.com/lcUHbBc.png" height="80%" width="80%" alt=""/>
+
+- Continue setting up osTicket in the browser
+- MySQL Database: osTicket
+- MySQL username: root
+- MySQL password: root
+- Click "Install Now!"
+
+<img src="https://i.imgur.com/roGiL09.png" height="80%" width="80%" alt=""/>
+
+-Congratulations! osTicket should be installed with no errors.
+
+<img src="https://i.imgur.com/KsQRjZA.png" height="80%" width="80%" alt=""/>
